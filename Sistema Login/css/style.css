@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: flex;
+    align-items: center;
+}
+
+#tela_login {
+    width: 30%;
+    height: 50vh;
+    padding: 2vh;
+    margin: auto;
+    text-align: center;
+    border-radius: 2vh;
+    background-color: white;
+    box-shadow: gray 0 10px 15px;
+}
+
+#email_utlizador, #senha_utlizador {
+    padding: 1vh;
+    margin-top: 4vh;
+    width: 90%;
+}
+
+#btn_entrar {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 2vh;
+    margin-top: 5vh;
+    border: none;
+    border-radius: 1vh;
+}
+
+#btn_add_adm {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 2vh;
+    margin-top: 8vh;
+    border: none;
+    border-radius: 1vh;
+}
+

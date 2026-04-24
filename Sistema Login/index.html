@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sistema Login - Login</title>
+</head>
+<body>
+    <nav id="tela_login">
+        <img src="img/2MeelpBlack_192_192.png" alt="2MeelpBlack_192_192" width="100"> <br>
+
+        <div>
+            <input type="email" placeholder="Informe o seu email" id="email_utlizador"> <br>
+            <input type="password" placeholder="Informe a sua senha" required id="senha_utlizador"> <br>
+            <button id="btn_entrar" onclick="utilizador.validar_conta()">Entrar</button>
+        </div>
+
+        <button id="btn_add_adm" onclick="utilizador.salvar_adm()">Adicionar ADM</button>
+    </nav>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
